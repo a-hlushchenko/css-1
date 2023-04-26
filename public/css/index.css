@@ -1,0 +1,138 @@
+:root {
+    background: #fff;
+} 
+
+* {
+    color: black;
+}
+
+.l1-3 h1 {
+    background: blue;
+}
+
+.l1-4 .green {
+    color: green;
+}
+
+.l1-5 #blue {
+    color: blue;
+}
+
+.box > p {
+    background: red;
+}
+
+.box > div {
+    background: green;
+}
+
+.l1-7 .green {
+    background: green;
+    color: #fff;
+}
+
+.l1-8 li {
+    background: red;
+}
+
+button.header-button + * {
+    background: red;
+}
+
+.susid ~ p {
+    background: blue;
+}
+
+.salo, #bread {
+    background: yellow;
+}
+
+.first-task li:first-child {
+    color: #fff;
+}
+
+.second-task ul:first-child > li:first-child {
+    color: yellow;
+}
+
+.third-task ul:nth-child(2) > li:first-child {
+    background: yellow;
+}
+
+.four-task li:last-child {
+    color: yellow;
+}
+
+.five-task ul:last-child > li:last-child {
+    color: yellow;
+}
+
+.only-child-task > div:only-child {
+    color: red;
+}
+
+.seven-task > p:first-of-type {
+    background: red;
+}
+
+.eight-task > p:last-of-type {
+    background: red;
+}
+
+.nine-task p:only-of-type {
+    background: yellow;
+}
+
+.l3-1 a[href] {
+    color: white;
+}
+
+.l3-2 li[value] {
+    color: yellow;
+}
+
+.l3-3 li[value='3'] {
+    background: red;
+}
+
+.l3-4 button[class~='primary'] {
+    background: blue;
+}
+
+.l3-5 button[class|='secondary'] {
+    background: red;
+}
+
+.l3-6 li[class^='b'] {
+    color: green;
+    background: white;
+}
+
+.l3-7 li[class*='on'] {
+    color: green;
+    background: white;
+}
+
+.l3-8 *[class$='s'] {
+    background: red;
+}
+
+.l3-9 h2::first-letter {
+    color: red;
+}
+
+.l3-10 p::first-line {
+    color: yellow;
+}
+
+.l3-11 input::placeholder {
+    background: red;
+}
+
+.l3-12 li::before {
+    content: "➤ ";
+}
+
+.l3-13 li::after {
+    content: " ➤";
+}

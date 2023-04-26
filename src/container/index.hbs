@@ -1,24 +1,24 @@
-{{! Завдання 1. Зробіть , щоб HTML документ мав білий фон  , використовуйте Root селектор}}
+{{! Завдання 1. Зробіть , щоб HTML документ мав білий фон , використовуйте Root селектор}}
 
-{{! Завдання 2. Зробіть, щоб всі елементи на сторінці мали текст чорного кольору  }}
+{{! Завдання 2. Зробіть, щоб всі елементи на сторінці мали текст чорного кольору }}
 
 <body>
   {{! Завдання 3. Зробіть, щоб h1 мав Синій колір фону }}
 
   <section class='m-5 card'>
     <div class='card-header'>Завдання 3</div>
-    <div class='card-body'>
+    <div class='card-body l1-3'>
       <div>
         <h1>Синій колір</h1>
       </div>
     </div>
   </section>
 
-  {{! Завдання 4. Зробіть, щоб клас green мав текст зеленого кольору  }}
+  {{! Завдання 4. Зробіть, щоб клас green мав текст зеленого кольору }}
 
   <section class='m-5 card'>
     <div class='card-header'>Завдання 4</div>
-    <div class='card-body'>
+    <div class='card-body l1-4'>
       <div>
         <p class='green'>Зелений колір</p>
       </div>
@@ -29,14 +29,14 @@
 
   <section class='m-5 card'>
     <div class='card-header'>Завдання 5</div>
-    <div class='card-body'>
+    <div class='card-body l1-5'>
       <div>
         <p id='blue'>Синій колір</p>
       </div>
     </div>
   </section>
 
-  {{! Завдання 6. Зробіть, щоб тег p мав червоний фон ,а тег div мав зелений фон  }}
+  {{! Завдання 6. Зробіть, щоб тег p мав червоний фон ,а тег div мав зелений фон }}
   {{! Тут вам потрібно використовувати Селектор нащадка }}
 
   <section class='m-5 card'>
@@ -55,11 +55,11 @@
     </div>
   </section>
 
-  {{! Завдання 7. Задайте класу green зелений фон та білий колір тексту, використовуйте селектор класу  }}
+  {{! Завдання 7. Задайте класу green зелений фон та білий колір тексту, використовуйте селектор класу }}
 
   <section class='m-5 card'>
     <div class='card-header'>Завдання 7</div>
-    <div class='card-body'>
+    <div class='card-body l1-7'>
       <div>
         <section class='green'>
           Зелений фон, але білий текст
@@ -73,7 +73,7 @@
 
   <section class='m-5 card'>
     <div class='card-header'>Завдання 8</div>
-    <div class='card-body'>
+    <div class='card-body l1-8'>
       <div>
         <ul>
           <li>Елемент 1</li>
@@ -221,7 +221,7 @@
     </div>
   </section>
 
-  <!--  Завдання №6: Змінити колір тексту на червоний у блоках div, які єдині в своєму батьківському елементі section -->
+  <!--  Завдання №6: Змінити колір тексту на червоний у блоках div, які єдині в своєму батьківському елементі з класом only-child-task -->
   <!--   Використовуйте Селектор одиничної дитини :only-child -->
 
   <section class='m-5 card'>
@@ -279,7 +279,7 @@
   <!--   Використовуйте Селектор одиничного типу :only-of-type-->
 
   <section class='m-5 card'>
-    <div class='card-header'>Завдання 8</div>
+    <div class='card-header'>Завдання 9</div>
     <div class='card-body'>
       <div class='nine-task'>
         <div class='text-wrapper'>
@@ -301,14 +301,14 @@
 
   <!--   Урок 3  -->
 
-  <!-- Завдання №1.  Зайдайте білий колір тексту всім посиланням які мають атрибут href
+  <!-- Завдання №1.  Задайте білий колір тексту всім посиланням які мають атрибут href
       Використовуйте селектор назви атрибута-
    -->
 
   <section class='m-5 card'>
     <div class='card-header'>Завдання 1</div>
     <div class='card-body'>
-      <div class='lesson-three-task-one'>
+      <div class='l3-1'>
         <nav>
           <ul>
             <li><a>Головна</a></li>
@@ -322,13 +322,13 @@
     </div>
   </section>
 
-  <!--Завдання №2. Зайдайте жовтий колір тексту всім елементам списку які мають атрибут value
+  <!--Завдання №2. Задайте жовтий колір тексту всім елементам списку які мають атрибут value
       Використовуйте селектор назви атрибута-->
 
   <section class='m-5 card'>
     <div class='card-header'>Завдання 2</div>
     <div class='card-body'>
-      <ol class='lesson-three-task-two'>
+      <ol class='l3-2'>
         <li value='1'>Елемент 1</li>
         <li> Елемент 2</li>
         <li>Елемент 3</li>
@@ -344,7 +344,7 @@
   <section class='m-5 card'>
     <div class='card-header'>Завдання 3</div>
     <div class='card-body'>
-      <ol class='lesson-three-task-three'>
+      <ol class='l3-3'>
         <li>Елемент 1</li>
         <li> Елемент 2</li>
         <li value='3'>Елемент 3</li>
@@ -359,7 +359,7 @@
   <section class='m-5 card'>
     <div class='card-header'>Завдання 4</div>
     <div class='card-body'>
-      <div class='lesson-three-task-four'>
+      <div class='l3-4'>
         <button class='primary action'>Primary Button</button>
         <button class='secondary action'>Secondary Button</button>
         <button class='action primary'>Tertiary Button</button>
@@ -367,14 +367,14 @@
     </div>
   </section>
 
-  <!-- Завдання №5. Надайте червоний фон всім кнопка назви класу яких починаються зі слова secondary -->
+  <!-- Завдання №5. Надайте червоний фон всім кнопкам назви класу яких починаються зі слова secondary -->
 
   <!--  Використовуйте селектор префіксу значення атрибута -->
 
   <section class='m-5 card'>
     <div class='card-header'>Завдання 5</div>
     <div class='card-body'>
-      <div class='lesson-three-task-five'>
+      <div class='l3-5'>
         <button class='secondary'>
           Первинна кнопка
         </button>
@@ -394,7 +394,7 @@
   <section class='m-5 card'>
     <div class='card-header'>Завдання 6</div>
     <div class='card-body'>
-      <div class='lesson-three-task-six'>
+      <div class='l3-6'>
         <ul>
           <li class='btn-primary'>Елемент 1</li>
           <li class='secondary'>Елемент 2</li>
@@ -410,7 +410,7 @@
   <section class='m-5 card'>
     <div class='card-header'>Завдання 7</div>
     <div class='card-body'>
-      <div class='lesson-three-task-seven'>
+      <div class='l3-7'>
         <ul>
           <li class='btn-primary'>Елемент 1</li>
           <li class='secondary'>Елемент 2</li>
@@ -426,18 +426,23 @@
   <section class='m-5 card'>
     <div class='card-header'>Завдання 8</div>
     <div class='card-body'>
-      <div class='lesson-three-task-eight'>
+      <div class='l3-8'>
         <ul>
           <li>
-            <span class='tag t'>tag t</span></li>
+            <span class='tag t'>tag t</span>
+          </li>
           <li>
-            <span class='tag s'>tag s</span></li>
+            <span class='tag s'>tag s</span>
+          </li>
           <li>
-            <span class='tag'>tag</span></li>
+            <span class='tag'>tag</span>
+          </li>
           <li>
-            <span class='tag s'>tag s</span></li>
+            <span class='tag s'>tag s</span>
+          </li>
           <li>
-            <span class='tag r'>tag r</span></li>
+            <span class='tag r'>tag r</span>
+          </li>
         </ul>
       </div>
     </div>
@@ -449,7 +454,7 @@
   <section class='m-5 card'>
     <div class='card-header'>Завдання 9</div>
     <div class='card-body'>
-      <div class='lesson-three-task-nine'>
+      <div class='l3-9'>
         <h2>Це заголовок 2</h2>
         <h2>Це заголовок 3</h2>
       </div>
@@ -462,7 +467,7 @@
   <section class='m-5 card'>
     <div class='card-header'>Завдання 10</div>
     <div class='card-body'>
-      <div class='lesson-three-task-ten'>
+      <div class='l3-10'>
         <p>Цей текст містить багато рядків і перший з них
           буде особливим.</p>
         <p>Цей текст містить багато рядків і перший з них
@@ -481,7 +486,7 @@
   <section class='m-5 card'>
     <div class='card-header'>Завдання 11</div>
     <div class='card-body'>
-      <div class='lesson-three-task-eleven'>
+      <div class='l3-11'>
         <input placeholder="Введіть своє ім'я" />
         <input />
         <input placeholder="Введіть своє ім'я" />
@@ -496,7 +501,7 @@
   <section class='m-5 card'>
     <div class='card-header'>Завдання 12</div>
     <div class='card-body'>
-      <div class='lesson-three-task-twelve'>
+      <div class='l3-12'>
         <ul>
           <li>Перший елемент</li>
           <li>Другий елемент</li>
@@ -512,7 +517,7 @@
   <section class='m-5 card'>
     <div class='card-header'>Завдання 13</div>
     <div class='card-body'>
-      <div class='lesson-three-task-thirteen'>
+      <div class='l3-13'>
         <ul>
           <li>Перший елемент</li>
           <li>Другий елемент</li>
